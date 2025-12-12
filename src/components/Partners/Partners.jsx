@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Partners = () => {
   return (
-    <section className="md:flex md:justify-center md:items-center md:gap-40 mt-10 grid grid-cols-3 gap-3 place-items-stretch table-auto px-5 md:px-0">
+    <section className="md:flex md:justify-center md:items-center md:gap-40 mt-10 grid grid-cols-3 gap-3 place-items-stretch table-auto pl-12 md:px-0">
       <Link to="https://www.amazon.com/">
         <img
           className="grayscale hover:grayscale-0 md:w-full w-2/3 "

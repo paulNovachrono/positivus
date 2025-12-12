@@ -16,5 +16,7 @@ html body {
 }
 
 :root{
-  --accGreen: #B9FF66
+  --accGreen: #B9FF66;
+  --gray:#F3F3F3
+  
 }
