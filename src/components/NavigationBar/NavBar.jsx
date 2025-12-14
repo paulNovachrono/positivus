@@ -8,7 +8,7 @@ const NavBar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-10 md:px-40 bg-white">
+    <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-10 md:px-40 bg-white z-50">
       <Link className="logo shrink-0" to="/">
         <img src="src/assets/Photos/logo.svg" alt="logo" />
       </Link>
