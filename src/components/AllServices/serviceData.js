@@ -1,4 +1,4 @@
-export default serviceData = [
+const serviceData = [
   {
     serviceText: "Search Engine Optimization",
     img: "src/assets/Photos/seo.png",
@@ -16,23 +16,23 @@ export default serviceData = [
     bgColor: "(--accGreen)",
     buttonBgcolor: "black",
     buttonBgHove: "(--gray)",
-    buttonTextColor: "(--accGreen)",
+    buttonTextColor: "#b9ff66",
     buttonTextHover: "black",
     buttonBorderHover: "black",
-    headingBgColor: "(--gray)",
+    headingBgColor: "white",
   },
   {
     serviceText: "Social Media Marketing",
     img: "src/assets/Photos/smm.png",
     bgColor: "black",
-    buttonBgcolor: "(--gray)",
+    buttonBgcolor: "white",
     buttonBgHove: "(--accGreen)",
     buttonTextColor: "black",
     buttonTextHover: "black",
     buttonBorderHover: "black",
-    headingBgColor: "(--gray)",
+    headingBgColor: "white",
   },
-    {
+  {
     serviceText: "Email Marketing",
     img: "src/assets/Photos/em.png",
     bgColor: "(--gray)",
@@ -49,20 +49,22 @@ export default serviceData = [
     bgColor: "(--accGreen)",
     buttonBgcolor: "black",
     buttonBgHove: "(--gray)",
-    buttonTextColor: "(--accGreen)",
+    buttonTextColor: "#b9ff66",
     buttonTextHover: "black",
     buttonBorderHover: "black",
-    headingBgColor: "(--gray)",
+    headingBgColor: "white",
   },
   {
     serviceText: "Analytics and Tracking",
     img: "src/assets/Photos/at.png",
     bgColor: "black",
-    buttonBgcolor: "(--gray)",
+    buttonBgcolor: "white",
     buttonBgHove: "(--accGreen)",
     buttonTextColor: "black",
     buttonTextHover: "black",
     buttonBorderHover: "black",
-    headingBgColor: "(--gray)",
+    headingBgColor: "white",
   },
 ];
+
+export default serviceData;
